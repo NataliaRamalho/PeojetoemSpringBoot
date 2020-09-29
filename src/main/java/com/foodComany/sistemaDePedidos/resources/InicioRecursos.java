@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class InicioRecursos {
 	@GetMapping
 	public ResponseEntity<String> paginaInicial(){
-		 return new ResponseEntity<>("Bem vindo, rotas disponiveis: categoria, produtos, pedidos, clientes ", HttpStatus.OK);
+		 return new ResponseEntity<>("Bem vindo, rotas disponiveis: categorias, produtos, pedidos, clientes ", HttpStatus.OK);
 	
 	}
 
